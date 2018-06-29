@@ -1,0 +1,16 @@
+<view class="buttons">
+  <button bindtap="prev" data-info="{{prev}}">上一篇</button>
+  <button bindtap="next" data-info="{{next}}">下一篇</button>
+</view>
+<view class="all">
+  <view class="item" wx:for="{{textDatas}}">
+    <text class="title">{{item.title}}</text>
+    <view class="center">
+      <text class="author">作者：{{item.author}}</text>
+      <text class="view">已浏览：{{item.wc}}</text>
+      <text class="time">发布日期：{{item.date.curr}}</text>      
+    </view>
+      <text decode class="digest">&nbsp;&nbsp;&nbsp;&nbsp;{{item.digest}}</text>  
+     <text decode class="content">{{item.content}}</text>    
+  </view>
+</view>

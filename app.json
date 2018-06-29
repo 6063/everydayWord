@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/texts/texts"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6fa",
+    "navigationBarTitleText": "每日一文",
+    "navigationBarTextStyle":"white"
+  }
+}
